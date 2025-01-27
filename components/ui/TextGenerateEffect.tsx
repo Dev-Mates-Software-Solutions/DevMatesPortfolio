@@ -12,8 +12,8 @@ export const TextGenerateEffect = ({
 }) => {
   const [scope, animate] = useAnimate();
   let wordsArray = words.split(" ");
+
   useEffect(() => {
-    console.log(wordsArray);
     animate(
       "span",
       {
@@ -33,9 +33,10 @@ export const TextGenerateEffect = ({
           return (
             <motion.span
               key={word + idx}
-              // change here if idx is greater than 3, change the text color to #CBACF9
-              className={` ${idx > 3 ? "text-purple" : "dark:text-white text-black"
-                } opacity-0`}
+              // Updated to use a blue theme if idx is greater than 3
+              className={`${
+                idx > 3 ? "text-blue-500" : "dark:text-slate-200 text-slate-800"
+              } opacity-0`}
             >
               {word}{" "}
             </motion.span>
@@ -47,10 +48,10 @@ export const TextGenerateEffect = ({
 
   return (
     <div className={cn("font-bold", className)}>
-      {/* mt-4 to my-4 */}
+      {/* Updated spacing */}
       <div className="my-4">
-        {/* remove  text-2xl from the original */}
-        <div className=" dark:text-white text-black leading-snug tracking-wide">
+        {/* Updated to use a blue-accented color scheme */}
+        <div className="dark:text-slate-200 text-slate-800 leading-snug tracking-wide">
           {renderWords()}
         </div>
       </div>
