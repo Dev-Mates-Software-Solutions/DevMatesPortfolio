@@ -37,10 +37,10 @@ const Footer = () => {
 
     try {
       await emailjs.send(
-        "service_zg8ac9r", // Replace with your EmailJS service ID
-        "template_vplu83l", // Replace with your EmailJS template ID
+        "service_42x8cth", // Replace with your EmailJS service ID
+        "template_siw6jif", // Replace with your EmailJS template ID
         { name, email, message },
-        "i-5SrIWwCA7D8Q0fl" // Replace with your EmailJS user/public key
+        "8pN11Z_GyAoCXMxf4" // Replace with your EmailJS user/public key
       );
 
       setFeedback("Your message has been sent successfully!");
