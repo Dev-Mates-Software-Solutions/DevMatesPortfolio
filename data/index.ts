@@ -72,35 +72,51 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "User-Friendly POS System",
+    des: "A seamless Point of Sale system designed using React, Node.js, and Electron to enhance retail operations with speed and accuracy.",
+    img: "/pos-system.svg", // Update with relevant image path
+    iconLists: ["/re.svg", "/node.svg", "/electron.svg"],
+    link: "/pos-system",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Innovative Event Organizing Application",
+    des: "Effortlessly create and manage events with this innovative platform, featuring resource person integration and efficient planning tools.",
+    img: "/event-organizer.svg", // Update with relevant image path
+    iconLists: ["/react.svg", "/node.svg", "/tail.svg"],
+    link: "/event-organizer",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Event Reminder Application",
+    des: "Never miss an important event again! This app helps you schedule, track, and get reminders for all your events with ease.",
+    img: "/event-reminder.svg", // Update with relevant image path
+    iconLists: ["/react.svg", "/node.svg", "/fm.svg"],
+    link: "/event-reminder",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Creative Portfolio Websites",
+    des: "Stand out with stunning, personalized portfolio websites tailored to showcase your skills and achievements creatively.",
+    img: "/portfolio-websites.svg", // Update with relevant image path
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "/portfolio-websites",
+  },
+  {
+    id: 5,
+    title: "Creative Design Services",
+    des: "Get custom flyer designs, T-shirt designs, business cards, and cutting-edge UI/UX designs crafted to perfection.",
+    img: "/design-services.svg", // Update with relevant image path
+    iconLists: ["/ai.svg", "/ps.svg", "/figma.svg"],
+    link: "/design-services",
+  },
+  {
+    id: 6,
+    title: "3D Model Creation and Animation Rendering",
+    des: "Specialized in creating 3D models and rendering animations for CNC projects using Fusion 360 and cutting-edge techniques.",
+    img: "/3D-Design2.PNG", // Update with relevant image path
+    iconLists: ["/fusion360.png", "/three.svg", "/gsap.svg"],
+    link: "/3d-modeling",
   },
 ];
 
@@ -188,6 +204,13 @@ export const workExperience = [
     desc: "Designed intuitive and user-friendly interfaces, enhancing user engagement and satisfaction for web and mobile platforms.",
     className: "md:col-span-2",
     thumbnail: "/ui-ux-designer.png",
+  },
+  {
+    id: 6,
+    title: "3D Modeling and Animation Rendering",
+    desc: "Specialized in creating 3D models and rendering animations, especially for CNC works and other detailed projects using tools like Fusion 360.",
+    className: "md:col-span-2",
+    thumbnail: "/3d-modeling.png", // Update with relevant image path
   },
   {
     id: 3,

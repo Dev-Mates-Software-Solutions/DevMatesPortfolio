@@ -4,7 +4,7 @@ import MagicButton from "./MagicButton";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-gray-900 text-white py-16 relative" id="contact">
+    <footer className="w-full text-white py-16 relative" id="contact">
       {/* Background Design */}
       <div className="absolute inset-0 -z-10">
         <img
@@ -39,26 +39,20 @@ const Footer = () => {
               className="w-full px-4 py-2 bg-gray-800 text-gray-300 rounded-md focus:ring-2 focus:ring-purple-500"
             />
             <textarea
-              rows="4"
+              rows={5}
               placeholder="Your Message"
               className="w-full px-4 py-2 bg-gray-800 text-gray-300 rounded-md focus:ring-2 focus:ring-purple-500"
             ></textarea>
-            <button
-              type="submit"
-              className="px-4 py-2 bg-purple-500 text-white rounded-md hover:bg-purple-600 transition-colors"
-            >
-              Submit
+            <button className="m-2 inline-block">
+              <MagicButton
+                title="Let's Get in Touch"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
             </button>
           </form>
 
           {/* Call to Action Button */}
-          <a href="mailto:contact@devmates.com" className="mt-6 inline-block">
-            <MagicButton
-              title="Let&apos;s Get in Touch"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
         </div>
 
         {/* Footer Sections */}
@@ -68,8 +62,8 @@ const Footer = () => {
             <h3 className="font-bold text-lg mb-4">About DevMates</h3>
             <p className="text-gray-400 leading-relaxed">
               DevMates is a software development company dedicated to delivering
-              top-tier digital solutions. Our expertise includes web development,
-              mobile apps, and software engineering.
+              top-tier digital solutions. Our expertise includes web
+              development, mobile apps, and software engineering.
             </p>
           </div>
 
@@ -78,22 +72,34 @@ const Footer = () => {
             <h3 className="font-bold text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href="#about" className="hover:text-purple-500 transition-colors">
+                <a
+                  href="#about"
+                  className="hover:text-purple-500 transition-colors"
+                >
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-purple-500 transition-colors">
+                <a
+                  href="#services"
+                  className="hover:text-purple-500 transition-colors"
+                >
                   Our Services
                 </a>
               </li>
               <li>
-                <a href="#portfolio" className="hover:text-purple-500 transition-colors">
+                <a
+                  href="#portfolio"
+                  className="hover:text-purple-500 transition-colors"
+                >
                   Portfolio
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-purple-500 transition-colors">
+                <a
+                  href="#contact"
+                  className="hover:text-purple-500 transition-colors"
+                >
                   Contact Us
                 </a>
               </li>
@@ -120,7 +126,9 @@ const Footer = () => {
 
           {/* Newsletter */}
           <div>
-            <h3 className="font-bold text-lg mb-4">Subscribe to Our Newsletter</h3>
+            <h3 className="font-bold text-lg mb-4">
+              Subscribe to Our Newsletter
+            </h3>
             <form className="flex flex-col gap-4">
               <input
                 type="email"
@@ -149,12 +157,12 @@ const Footer = () => {
             {socialMedia.map((info) => (
               <a
                 key={info.id}
-                href={info.link}
+                // href={info.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 flex justify-center items-center bg-gray-800 hover:bg-gray-700 rounded-full transition-colors"
               >
-                <img src={info.img} alt={info.name} className="w-5 h-5" />
+                <img src={info.img} className="w-5 h-5" />
               </a>
             ))}
           </div>

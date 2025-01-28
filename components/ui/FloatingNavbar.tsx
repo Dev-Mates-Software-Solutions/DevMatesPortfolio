@@ -66,9 +66,9 @@ export const FloatingNav = ({
         )}
         style={{
           backdropFilter: "blur(16px) saturate(180%)",
-          backgroundColor: "rgba(85, 128, 189, 0.75)",
+          backgroundColor: "rgb(4, 93, 171)",
           borderRadius: "12px",
-          border: "1px solid rgba(2, 37, 85, 0.75)",
+          border: "1px solid rgb(4, 93, 171)",
         }}
       >
         {navItems.map((navItem: any, idx: number) => (
