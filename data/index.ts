@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: "User-Friendly POS System",
     des: "A seamless Point of Sale system designed using React, Node.js, and Electron to enhance retail operations with speed and accuracy.",
-    img: "/pos-system.svg", // Update with relevant image path
+    img: "/pos.png", // Update with relevant image path
     iconLists: ["/re.svg", "/node.svg", "/electron.svg"],
     link: "/pos-system",
   },
@@ -82,7 +82,7 @@ export const projects = [
     id: 2,
     title: "Innovative Event Organizing Application",
     des: "Effortlessly create and manage events with this innovative platform, featuring resource person integration and efficient planning tools.",
-    img: "/event-organizer.svg", // Update with relevant image path
+    img: "/event-organizer.jpg", // Update with relevant image path
     iconLists: ["/react.svg", "/node.svg", "/tail.svg"],
     link: "/event-organizer",
   },
@@ -90,7 +90,7 @@ export const projects = [
     id: 3,
     title: "Event Reminder Application",
     des: "Never miss an important event again! This app helps you schedule, track, and get reminders for all your events with ease.",
-    img: "/event-reminder.svg", // Update with relevant image path
+    img: "/event-reminder.jpg", // Update with relevant image path
     iconLists: ["/react.svg", "/node.svg", "/fm.svg"],
     link: "/event-reminder",
   },
@@ -106,7 +106,7 @@ export const projects = [
     id: 5,
     title: "Creative Design Services",
     des: "Get custom flyer designs, T-shirt designs, business cards, and cutting-edge UI/UX designs crafted to perfection.",
-    img: "/design-services.svg", // Update with relevant image path
+    img: "/T-shirt-design.png", // Update with relevant image path
     iconLists: ["/ai.svg", "/ps.svg", "/figma.svg"],
     link: "/design-services",
   },
