@@ -1,5 +1,6 @@
 import { FaLocationArrow } from "react-icons/fa6";
 
+import { motion } from "framer-motion";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
@@ -39,6 +40,19 @@ const Hero = () => {
           className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-[#022555]
          bg-[#045DAB] [mask-image:radial-gradient(ellipse_at_center,transparent_20%,#022555)]"
         />
+        <motion.div
+          className="flex justify-center items-center text-[#fff] text-[15rem] opacity-5 font-bold whitespace-nowrap"
+          animate={{
+            x: ["100%", "-100%"], // Moves completely to the right and reappears from the left
+          }}
+          transition={{
+            duration: 10, // Total time for one full cycle
+            ease: "linear", // Linear motion for smooth, constant speed
+            repeat: Infinity, // Repeat the animation infinitely
+          }}
+        >
+          DEVMATES
+        </motion.div>
       </div>
 
       <div className="flex justify-center relative my-20 z-10">

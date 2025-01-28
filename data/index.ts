@@ -107,33 +107,38 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with DevMates has been an incredible experience. Their attention to detail and dedication to our project's success exceeded our expectations. The team was always responsive, and they truly understood our needs. I highly recommend DevMates for anyone looking to take their digital presence to the next level.",
+    name: "Nadeesha Perera",
+    title: "Founder, Nadeesha Creations",
+    img: "/nadeesha.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "DevMates delivered exactly what we envisioned and more. Their expertise in web development and commitment to meeting deadlines made them an invaluable partner. The team was friendly, professional, and always ready to tackle new challenges. We couldn't have asked for a better experience.",
+    name: "Dinesh Karunaratne",
+    title: "CEO, LankaTech Solutions",
+    img: "/dinesh.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "We were looking for a company that understood our vision, and DevMates nailed it. From concept to execution, they worked closely with us to ensure everything was perfect. Their technical skills are top-notch, and the final product was exactly what we needed to move our business forward.",
+    name: "Priyanka Silva",
+    title: "Marketing Manager, Colombo Innovators",
+    img: "/priyanka.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "DevMates has helped us achieve our goals with outstanding web solutions. The team was not only skilled but also incredibly easy to work with. They provided valuable suggestions and delivered a polished product on time. Their professionalism and creativity are unparalleled.",
+    name: "Saman Wickramasinghe",
+    title: "Project Manager, Ceylon Solutions",
+    img: "/saman.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "From start to finish, working with DevMates was an excellent experience. They truly listened to our needs and provided innovative solutions that helped improve our website's performance. Their team is knowledgeable, responsive, and always ready to offer support. I would highly recommend them to anyone in need of quality web development services.",
+    name: "Chaminda Jayaweera",
+    title: "Co-Founder, Jaya Enterprises",
+    img: "/chaminda.jpg",
   },
 ];
 
@@ -169,35 +174,41 @@ export const companies = [
     nameImg: "/dockerName.svg",
   },
 ];
-
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Website Development",
+    desc: "Crafted high-performance and visually stunning websites tailored to client requirements using modern web technologies.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/web-developer.png", // Ensure this path points to the correct thumbnail
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    title: "UI/UX Design",
+    desc: "Designed intuitive and user-friendly interfaces, enhancing user engagement and satisfaction for web and mobile platforms.",
+    className: "md:col-span-2",
+    thumbnail: "/ui-ux-designer.png",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    title: "Mobile Application Development",
+    desc: "Developed scalable and feature-rich mobile applications for both Android and iOS platforms, ensuring seamless performance.",
+    className: "md:col-span-2",
+    thumbnail: "/mobile-application.png",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Flyer & Graphic Designing",
+    desc: "Delivered high-quality graphic designs and flyers, elevating brand visibility and marketing campaigns.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/graphic-designer.png",
+  },
+  {
+    id: 5,
+    title: "Video and Logo Animation",
+    desc: "Produced engaging animations for logos and videos, adding a dynamic edge to marketing strategies and brand identity.",
+    className: "md:col-span-2",
+    thumbnail: "/film-editor.png",
   },
 ];
 
