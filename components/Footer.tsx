@@ -5,6 +5,7 @@ import MagicButton from "./MagicButton";
 const Footer = () => {
   return (
     <footer className="w-full text-white py-16 relative" id="contact">
+      <h1 className="absolute text-[50rem] opacity-5 top-5">DM</h1>
       {/* Background Design */}
       <div className="absolute inset-0 -z-10">
         <img

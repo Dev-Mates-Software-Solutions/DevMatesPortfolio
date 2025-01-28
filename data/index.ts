@@ -75,7 +75,7 @@ export const projects = [
     title: "User-Friendly POS System",
     des: "A seamless Point of Sale system designed using React, Node.js, and Electron to enhance retail operations with speed and accuracy.",
     img: "/pos.png", // Update with relevant image path
-    iconLists: ["/re.svg", "/node.svg", "/electron.svg"],
+    iconLists: ["/re.svg", "/nodejs.svg", "/electron.svg"],
     link: "/pos-system",
   },
   {
@@ -83,7 +83,7 @@ export const projects = [
     title: "Innovative Event Organizing Application",
     des: "Effortlessly create and manage events with this innovative platform, featuring resource person integration and efficient planning tools.",
     img: "/event-organizer.jpg", // Update with relevant image path
-    iconLists: ["/react.svg", "/node.svg", "/tail.svg"],
+    iconLists: ["/re.svg", "/nodejs.svg", "/tail.svg"],
     link: "/event-organizer",
   },
   {
@@ -91,15 +91,15 @@ export const projects = [
     title: "Event Reminder Application",
     des: "Never miss an important event again! This app helps you schedule, track, and get reminders for all your events with ease.",
     img: "/event-reminder.jpg", // Update with relevant image path
-    iconLists: ["/react.svg", "/node.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/nodejs.svg", "/fm.svg"],
     link: "/event-reminder",
   },
   {
     id: 4,
     title: "Creative Portfolio Websites",
     des: "Stand out with stunning, personalized portfolio websites tailored to showcase your skills and achievements creatively.",
-    img: "/portfolio-websites.svg", // Update with relevant image path
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    img: "/portfolio.png", // Update with relevant image path
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
     link: "/portfolio-websites",
   },
   {
